@@ -1,0 +1,82 @@
+.Item-flex1 {
+    display: flex;
+    background-color: lightblue;
+    margin-top: 3px;
+    justify-content: center ;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.Item-flex1 div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.Item-flex2 {
+    display: flex;
+    background-color: lightblue;
+    margin-top: 3px;
+    justify-content: center ;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.Item-flex2 div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height: 200px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.Item-flex3 {
+    display: flex;
+    background-color: lightblue;
+    margin-top: 3px;
+    justify-content: center ;
+    align-items: stretch;
+}
+
+.Item-flex3 div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.Item-flex4 {
+    display: flex;
+    background-color: lightblue;
+    margin-top: 3px;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.Item-Left {
+    box-sizing: border-box;
+    padding: 10px;
+    flex: 50%;
+    background-color: beige;
+    margin: 2px;
+}
+
+
+
+@media (max-width: 800px){
+    .Item-flex4 {
+        flex-direction: column;
+    }
+}
